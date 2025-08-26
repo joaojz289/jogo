@@ -1,9 +1,9 @@
-import Alien from "./classes/alien.js";
-import Player from "./classes/Player.js";
-import Projeteis from "./classes/Projeteis.js";
-import Grid from "./classes/Grid.js";
-import Particula from "./classes/Particulas.js";
-import { GameState } from "./utils/constants.js";
+import Alien from "alien.js";
+import Player from "Player.js";
+import Projeteis from "Projeteis.js";
+import Grid from "Grid.js";
+import Particula from "Particulas.js";
+import { GameState } from "constants.js";
 
 const startScreen = document.querySelector(".start-screen");
 const gameOverScreen = document.querySelector(".game-over");
@@ -317,3 +317,4 @@ buttonRestart.addEventListener("click", () => {
 });
 
 gameLoop();
+
